@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <script src="jquery-1.11.3.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#collapseFour').collapse({
+            toggle: false
+            })
+        });
+        $(function () {
+            $('#collapseTwo').collapse({
+                toggle: false
+            });
+        });
+        $(function () {
+            $('#collapseThree').collapse({
+                toggle: false
+            });
+        });
+        $(function () {
+            $('#collapseOne').collapse({
+                toggle: false
+            });
+        });
+        $(function () {
+            $('#collapseFive').collapse({
+                toggle: false
+            });
+        });
+        $(function () {
+            $('#collapseSix').collapse({
+                toggle: false
+            });
+        });
+    </script>
+    <style>
+        #accordion{
+            width: 40%;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<hr>
+<div class="panel-group container" id="accordion">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    招聘
+                </a>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+            <div class="panel-body">
+                <div class="input-group">
+                    <span class="input-group-addon">UserName:</span>
+                    <input type="text" class="form-control" placeholder="system" readonly>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">PassWord:</span>
+                    <input type="text" class="form-control" placeholder="ctsi@2008" readonly>
+                </div>
+                <a href="http://www7.chinatelecom.com.cn/hr/admin/hr/login.jsp" target="_blank">招聘</a>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    TRS WCM 7.0
+                </a>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="input-group">
+                    <span class="input-group-addon">UserName:</span>
+                    <input type="text" class="form-control" placeholder="yangguang" readonly>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">PassWord:</span>
+                    <input type="text" class="form-control" placeholder="yg.G2016" readonly>
+                </div>
+                <a href="https://www11.chinatelecom.com.cn/wcm/app/login.jsp" target="_blank">TRS WCM 7.0</a>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    百度统计
+                </a>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="input-group">
+                    <span class="input-group-addon">UserName:</span>
+                    <input type="text" class="form-control" placeholder="byx02012" readonly>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">PassWord:</span>
+                    <input type="text" class="form-control" placeholder="yjj7296pt15" readonly>
+                </div>
+                <a href="http://tongji.baidu.com/web/welcome/login" target="_blank">百度统计</a>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                    Google 统计
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="input-group">
+                    <span class="input-group-addon">UserName:</span>
+                    <input type="text" class="form-control" placeholder="ctsiweb2014@gmail.com" readonly>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">PassWord:</span>
+                    <input type="text" class="form-control" placeholder="ctsi@2014" readonly>
+                </div>
+                <a href="https://www.google.com/analytics/" target="_blank">Google 统计</a>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                    电商后台
+                </a>
+            </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="input-group">
+                    <span class="input-group-addon">UserName:</span>
+                    <input type="text" class="form-control" placeholder="yangguang" readonly>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">PassWord:</span>
+                    <input type="text" class="form-control" placeholder="ctsi2017" readonly>
+                </div>
+                <a href="http://cloud.ctsi.com.cn/ctsishop/manage/admin.jsp" target="_blank">电商后台</a>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                    TRS WCM 5.0
+                </a>
+            </h4>
+        </div>
+        <div id="collapseSix" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="input-group">
+                    <span class="input-group-addon">UserName:</span>
+                    <input type="text" class="form-control" placeholder="ctsi_admin" readonly>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">PassWord:</span>
+                    <input type="text" class="form-control" placeholder="ct@telecom810" readonly>
+                </div>
+                <hr>
+                <div class="input-group">
+                    <span class="input-group-addon">UserName:</span>
+                    <input type="text" class="form-control" placeholder="admin" readonly>
+                </div>
+                <br>
+                <div class="input-group">
+                    <span class="input-group-addon">PassWord:</span>
+                    <input type="text" class="form-control" placeholder="telecom2012" readonly>
+                </div>
+                <a href="http://211.100.35.134/wcm/index.html" target="_blank">TRS WCM 5.0</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
